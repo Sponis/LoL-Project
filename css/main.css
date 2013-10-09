@@ -1,0 +1,137 @@
+#wrapper {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#header {
+    background-color:#123456;
+    height: 40px;
+    line-height: 40px;
+}
+
+#header h1 {
+    margin:0;
+    color:#fff;
+    text-align:center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-variant:small-caps;
+}
+
+#leftmenu {
+    position: relative;
+    width: 30%;
+    height: auto;
+    background-color:#44687d;
+}
+
+ul#CharTypes {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul#CharTypes li h3{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0px;
+    border-style: ridge;
+    border-width: 4px;
+    border-color: #009999;
+}
+
+ul#CharTypes li h3:hover {
+    background-color: #ccddee;
+    color: #000;
+}
+
+#leftmenu li div.Chars {
+    display: none;
+    padding: 10px;
+    background:#b0bfd2;
+}
+
+#leftmenu li:hover div.Chars {
+    display: inherit;
+}
+
+.assassins li {
+    list-style: none;
+}
+
+.assassins li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+div.Chars ul {
+    margin: 0px;
+    padding: 4px;
+}
+
+.assassins li a:hover {
+    color: #000;
+}
+
+#rightcontent {
+    position: relative;
+    width: 70%
+}
+
+/*#menu {
+    
+    height:400px;
+    width:200px;
+    float:left;
+}
+
+#menu ul {
+    margin: 110px 0px 110px 0px;
+}
+
+#menu li {
+    padding: 5px;
+}
+
+#menu a {
+    color: white;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#menu a:hover {
+    color:  #ff4a00;
+}
+
+#content {
+    width: 760px;
+    height: 400px;
+    background-color: #bfcada;
+    float:left;
+    overflow: hidden;
+}
+
+#pinakas {
+    overflow: hidden;
+}*/
+
+
+#footer  p{
+    color:white;
+    background-color:#123456;
+    text-align:center;
+    height: 24px;
+    line-height: 24px;
+    margin: 0px 0px;
+    padding: 0px;
+}
